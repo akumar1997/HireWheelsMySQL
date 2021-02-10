@@ -38,8 +38,9 @@ Dirt bike
 ,Sports bike
 
 Colour of the vehicle
-,The location where the vehicle will be available for booking. The following details of the location that need to be stored in the database:
-,Location name
+
+The location where the vehicle will be available for booking. The following details of the location that need to be stored in the database:
+ Location name
 ,Complete address of the where the vehicle will be available
 ,City name
 ,Pincode
@@ -47,7 +48,7 @@ Colour of the vehicle
 ,Price per day of the vehicle
 ,Fuel type of the vehicle: CNG,
 Petrol,
-Diesel
+Diesel.
 
 
 Booking: Every customer books vehicles from the website based on their location as well as time. Once the customer has completed all the steps involved, the booking is confirmed and the record is stored in the database. A vehicle booking completed by any customer should contain the following information:
@@ -58,6 +59,6 @@ Pickup date and time
 ,Booking amount 
 ,Location of the vehicle
 ,Vehicle number (The number of vehicle that has been booked)
-,Customer email (The email ID of the customer who has booked the vehicle)
+,Customer email (The email ID of the customer who has booked the vehicle).
 
 The functionality of the admin: The admin can perform two activities in the application apart from booking the vehicle: First, adding vehicles for rent by providing all the required vehicle details, and second, stopping the booking of vehicles by the customers.
